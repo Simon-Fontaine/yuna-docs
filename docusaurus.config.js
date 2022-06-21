@@ -12,8 +12,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 		onBrokenLinks: "throw",
 		onBrokenMarkdownLinks: "warn",
 		favicon: "img/favicon.ico",
-		organizationName: "facebook", // Usually your GitHub org/user name.
-		projectName: "docusaurus", // Usually your repo name.
+		organizationName: "YunaBot",
+		projectName: "yuna-docs",
 
 		presets: [
 			[
@@ -23,12 +23,12 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 					docs: {
 						sidebarPath: require.resolve("./sidebars.js"),
 						// Please change this to your repo.
-						editUrl: "https://github.com/facebook/docusaurus/edit/main/website/",
+						editUrl: "https://github.com/Simon-Fontaine/yuna-docs",
 					},
 					blog: {
 						showReadingTime: true,
 						// Please change this to your repo.
-						editUrl: "https://github.com/facebook/docusaurus/edit/main/website/blog/",
+						editUrl: "https://github.com/Simon-Fontaine/yuna-docs/tree/main/blog",
 					},
 					theme: {
 						customCss: require.resolve("./src/css/custom.css"),
