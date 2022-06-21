@@ -5,8 +5,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (
 	module.exports = {
-		title: "My Site",
-		tagline: "Dinosaurs are cool",
+		title: "Yuna",
+		tagline: "A useful Discord bot",
 		url: "https://yunabot.netlify.app/",
 		baseUrl: "/",
 		onBrokenLinks: "throw",
@@ -41,21 +41,21 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 			/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 			({
 				navbar: {
-					title: "My Site",
+					title: "Yuna",
 					logo: {
-						alt: "My Site Logo",
-						src: "img/logo.svg",
+						alt: "Yuna Logo",
+						src: "img/YunaLogo.svg",
 					},
 					items: [
 						{
 							type: "doc",
 							docId: "intro",
 							position: "left",
-							label: "Tutorial",
+							label: "Documentation",
 						},
-						{ to: "/blog", label: "Blog", position: "left" },
+						{ to: "/blog", label: "Changelog", position: "left" },
 						{
-							href: "https://github.com/facebook/docusaurus",
+							href: "https://github.com/Simon-Fontaine/yuna-docs",
 							label: "GitHub",
 							position: "right",
 						},
@@ -68,7 +68,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 							title: "Docs",
 							items: [
 								{
-									label: "Tutorial",
+									label: "Documentation",
 									to: "/docs/intro",
 								},
 							],
@@ -77,16 +77,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 							title: "Community",
 							items: [
 								{
-									label: "Stack Overflow",
-									href: "https://stackoverflow.com/questions/tagged/docusaurus",
-								},
-								{
 									label: "Discord",
-									href: "https://discordapp.com/invite/docusaurus",
-								},
-								{
-									label: "Twitter",
-									href: "https://twitter.com/docusaurus",
+									href: "https://discord.gg/VDWb3yDRND",
 								},
 							],
 						},
@@ -94,17 +86,17 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 							title: "More",
 							items: [
 								{
-									label: "Blog",
+									label: "Changelog",
 									to: "/blog",
 								},
 								{
 									label: "GitHub",
-									href: "https://github.com/facebook/docusaurus",
+									href: "https://github.com/Simon-Fontaine/yuna-docs",
 								},
 							],
 						},
 					],
-					copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+					copyright: `Copyright © ${new Date().getFullYear()} YunaBot, Inc. Built with Docusaurus.`,
 				},
 				prism: {
 					theme: lightCodeTheme,
