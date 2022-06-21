@@ -15,7 +15,7 @@ function HomepageHeader() {
 				<p className="hero__subtitle">{siteConfig.tagline}</p>
 				<div className={styles.buttons}>
 					<Link className="button button--secondary button--lg" to="/docs/intro">
-						Docusaurus Tutorial - 5min ⏱️
+						Yuna Documentation - 5min ⏱️
 					</Link>
 				</div>
 			</div>
@@ -24,9 +24,9 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-	const { siteConfig } = useDocusaurusContext();
+	// const { siteConfig } = useDocusaurusContext();
 	return (
-		<Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
+		<Layout title={"Home"} description="Yuna is a free and customizable Discord bot featuring a hand full of features !">
 			<HomepageHeader />
 			<main>
 				<HomepageFeatures />

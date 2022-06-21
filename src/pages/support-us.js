@@ -3,7 +3,7 @@ import Layout from "@theme/Layout";
 
 export default function MyReactPage() {
 	return (
-		<Layout>
+		<Layout title={"Support Us"} description="Feel like our work deserves a little extra ? Buy one of our supporter plans !">
 			<div
 				style={{
 					display: "flex",
