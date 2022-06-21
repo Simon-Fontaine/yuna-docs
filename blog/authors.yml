@@ -15,3 +15,9 @@ slorber:
   title: Docusaurus maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
+
+simon:
+  name: Simon Fontaine
+  title: Creator of Yuna
+  url: https://github.com/Simon-Fontaine/yuna-docs
+  image_url: https://github.com/Simon-Fontaine.png
