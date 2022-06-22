@@ -46,6 +46,6 @@ Permets de vous laisser la liberté de vous attribuer certains rôles de notific
 
 Créer facilement une suggestion filtrée par catégorie. Envoyez simplement votre suggestion dans le salon textuel approprier, choisissez la catégorie proposée puis c'est bon! Votre suggestion est envoyée et consultable par l'ensemble du serveur.
 
-### Réponses personnalisables automatiques
+### Réponses automatiques
 
 Créer facilement une réponse automatique à une question posée dans un salon textuel. Complètement personnalisable directement depuis Discord. Répondez automatiquement aux questions les plus souvent posées.
