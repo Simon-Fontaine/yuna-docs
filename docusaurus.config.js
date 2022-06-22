@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 	module.exports = {
 		title: "Yuna Docs",
 		tagline: "Retrouvez toute la documentation de mes projets",
-		url: "https://yunatest.xyz/",
+		url: "https://yunatest.xyz",
 		baseUrl: "/",
 		onBrokenLinks: "throw",
 		onBrokenMarkdownLinks: "warn",
