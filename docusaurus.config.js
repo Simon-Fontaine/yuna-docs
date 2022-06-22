@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 (
 	module.exports = {
 		title: "Yuna Docs",
-		tagline: "Find all the documentation of my projects",
-		url: "https://yunatest.xyz",
+		tagline: "Retrouvez toute la documentation de mes projets",
+		url: "https://yunatest.xyz/",
 		baseUrl: "/",
 		onBrokenLinks: "throw",
 		onBrokenMarkdownLinks: "warn",
@@ -31,12 +31,12 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 							},
 						},
 						// Please change this to your repo.
-						editUrl: "https://github.com/Simon-Fontaine/yuna-docs",
+						editUrl: "https://github.com/Simon-Fontaine/yuna-docs/tree/main/",
 					},
 					blog: {
 						showReadingTime: true,
 						// Please change this to your repo.
-						editUrl: "https://github.com/Simon-Fontaine/yuna-docs",
+						editUrl: "https://github.com/Simon-Fontaine/yuna-docs/tree/main/",
 					},
 					theme: {
 						customCss: require.resolve("./src/css/custom.css"),
@@ -44,7 +44,6 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 				}),
 			],
 		],
-
 		themeConfig:
 			/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 			({
@@ -60,11 +59,6 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 							docId: "intro",
 							position: "left",
 							label: "Documentation",
-						},
-						{
-							to: "/support-us",
-							label: "Support Us",
-							position: "left",
 						},
 						{
 							type: "docsVersionDropdown",

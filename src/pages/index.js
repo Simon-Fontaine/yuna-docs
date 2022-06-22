@@ -15,7 +15,7 @@ function HomepageHeader() {
 				<p className="hero__subtitle">{siteConfig.tagline}</p>
 				<div className={styles.buttons}>
 					<Link className="button button--secondary button--lg" to="/docs/intro">
-						Yuna Documentation - 5min ⏱️
+						Yuna Docs - Apprends tout en 5min ⏱️
 					</Link>
 				</div>
 			</div>

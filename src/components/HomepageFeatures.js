@@ -4,32 +4,31 @@ import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
 	{
-		title: "Entirely Free",
-		Svg: require("../../static/img/undraw_free.svg").default,
+		title: "Tout et partout",
+		Svg: require("../../static/img/undraw_the_world_is_mine.svg").default,
 		description: (
 			<>
-				If you feel like our work deserves a little extra, feel free to buy one of our <a href="support-us">supporter plans</a>! It
-				allows us to remain completely free for other users!
+				Yuna Docs est un regroupement de toutes les documentations des <a href="https://github.com/Simon-Fontaine">projets de Simon</a>
+				. C'est une librairie globale <b>accessible par tous et partout</b>.
 			</>
 		),
 	},
 	{
-		title: "Easy to Use",
-		Svg: require("../../static/img/undraw_easy.svg").default,
+		title: "Facile à comprendre",
+		Svg: require("../../static/img/undraw_learning.svg").default,
 		description: (
 			<>
-				Make your server feel special and unique with these <a href="/docs/intro">easy-to-use</a>, customizable plugins. We give you
-				full control over your server and your plugins.
+				Yuna Docs est <b>le meilleur endroit</b> pour apprendre et se renseigner sur un ou des projets de Simon. Vous y retrouverez{" "}
+				<a href="docs/intro">tout ce qu'il vous faut</a> !
 			</>
 		),
 	},
 	{
-		title: "Focus on What Matters",
-		Svg: require("../../static/img/undraw_focus.svg").default,
+		title: "Partage tes connaissances",
+		Svg: require("../../static/img/undraw_sharing_knowledge.svg").default,
 		description: (
 			<>
-				Help your server achieve it true potential with <a href="/docs/intro">easy-to-use</a> productivity plugins such as a ticketing
-				system, message filtering system, and other useful things.
+				Aide d'autres personnes à perfectionner l'usage de mes outils, <b>partage cette documentation</b> autour de toi !
 			</>
 		),
 	},
