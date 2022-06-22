@@ -23,13 +23,6 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 					docs: {
 						sidebarPath: require.resolve("./sidebars.js"),
 						includeCurrentVersion: true,
-						// lastVersion: "current",
-						versions: {
-							current: {
-								label: "beta",
-								path: "./docs",
-							},
-						},
 						// Please change this to your repo.
 						editUrl: "https://github.com/Simon-Fontaine/yuna-docs/tree/main/",
 					},
