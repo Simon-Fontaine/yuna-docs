@@ -5,14 +5,14 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (
 	module.exports = {
-		title: "Yuna",
-		tagline: "A useful Discord bot",
-		url: "https://yunabot.netlify.app/",
+		title: "Yuna Docs",
+		tagline: "Find all the documentation of my projects",
+		url: "https://yunatest.xyz",
 		baseUrl: "/",
 		onBrokenLinks: "throw",
 		onBrokenMarkdownLinks: "warn",
 		favicon: "img/favicon.ico",
-		organizationName: "YunaBot",
+		organizationName: "Simon-Fontaine",
 		projectName: "yuna-docs",
 
 		presets: [
@@ -36,7 +36,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 					blog: {
 						showReadingTime: true,
 						// Please change this to your repo.
-						editUrl: "https://github.com/Simon-Fontaine/yuna-docs/tree/main/blog",
+						editUrl: "https://github.com/Simon-Fontaine/yuna-docs",
 					},
 					theme: {
 						customCss: require.resolve("./src/css/custom.css"),
@@ -49,7 +49,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 			/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 			({
 				navbar: {
-					title: "Yuna",
+					title: "Yuna Docs",
 					logo: {
 						alt: "Yuna Logo",
 						src: "img/YunaLogo.svg",
@@ -61,7 +61,6 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 							position: "left",
 							label: "Documentation",
 						},
-						{ to: "/blog", label: "Blog", position: "left" },
 						{
 							to: "/support-us",
 							label: "Support Us",
@@ -103,21 +102,18 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 							title: "More",
 							items: [
 								{
-									label: "Blog",
-									to: "/blog",
-								},
-								{
 									label: "GitHub",
 									href: "https://github.com/Simon-Fontaine/yuna-docs",
 								},
 							],
 						},
 					],
-					copyright: `Copyright © ${new Date().getFullYear()} YunaBot, Inc. Built with Docusaurus.`,
+					copyright: `Copyright © ${new Date().getFullYear()} Yuna Docs. Built with Docusaurus.`,
 				},
 				prism: {
 					theme: lightCodeTheme,
 					darkTheme: darkCodeTheme,
+					additionalLanguages: ["php"],
 				},
 			}),
 	}
