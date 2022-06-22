@@ -1,4 +1,5 @@
 ---
+title: Bienvenue
 sidebar_position: 1
 ---
 
