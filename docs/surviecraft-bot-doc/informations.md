@@ -30,7 +30,7 @@ Serveur Discord: **[Clique ici](https://discordapp.com/invite/7Js6rjy)**
 
 > Site Internet SurvieCraft, vous pourrez y retrouver toutes les informations utiles à propos du serveur Minecraft.
 
-Website: **[Clique ici](https://surviecraft.fr/)**
+Site Internet: **[Clique ici](https://surviecraft.fr/)**
 </TabItem>
 </Tabs>
 
